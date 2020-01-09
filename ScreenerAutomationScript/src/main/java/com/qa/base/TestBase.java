@@ -1,0 +1,148 @@
+package com.qa.base;
+
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.qa.util.TestUtil;
+
+
+
+public class TestBase {
+	
+	public static WebDriver driver;
+	public static Properties prop;
+	public static WebDriverWait wait;
+	public static Logger log;
+
+	
+	public TestBase() {	
+		log = Logger.getLogger(TestBase.class.getName());
+		DOMConfigurator.configure("..//ScreenerSanityProd/log4j.xml");
+		try {
+			
+			prop = new Properties();
+			//FileInputStream ip = new FileInputStream("./Config/config.properties");
+			FileInputStream ip = new FileInputStream("../ScreenerSanityProd/src/main/java/com/crm/qa/config/config.properties");
+			prop.load(ip);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+		
+	public static void intilization() {
+		
+
+		
+//		ChromeOptions chromeOptions= new ChromeOptions();
+//		chromeOptions.setBinary("C:\\Users\\nagesh.shantharaju\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+//
+//		ChromeDriver driver = new ChromeDriver(chromeOptions);
+		
+		String browsername = prop.getProperty("browser");
+		
+		if(browsername.equalsIgnoreCase("chrome")) {
+			
+			System.setProperty("webdriver.chrome.driver",prop.getProperty("DriverPath"));
+			driver = new ChromeDriver();
+			log.info("Browser has been launched");
+		} 
+		else if(browsername.equalsIgnoreCase("firefox")) {
+			
+			System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Selenium-java-3.14\\geckodriver-v0.21.0-win32\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		}
+
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		
+		driver.get(prop.getProperty("URL"));
+		//driver.get("https://demo-poc.oneclear.com/BC/Product/Modules/SignIn.aspx");
+		
+		driver.findElement(By.linkText("Click Here")).click();
+		
+		try {
+			driver.findElement(By.xpath("//p[@class='flashCheck']/a")).click();
+			Robot robot = new Robot();
+			Thread.sleep(2000);
+			robot.keyPress(KeyEvent.VK_TAB);
+			Thread.sleep(2000);
+			robot.keyPress(KeyEvent.VK_ENTER);
+		} catch (Exception e) {
+
+			// exception handling
+		}
+	}
+	public static void DbConnection() throws SQLException
+	{
+		Connection conn = DriverManager.getConnection("jdbc:mysql://10.6.1.102:8080/Clear_NG", "clear", "clear");
+		
+		Statement stmt = conn.createStatement();
+		ResultSet MFAQuery = stmt.executeQuery("select top 1 * from clear.[MFATokens]\n" + 
+				"where Context='LOGIN'\n" + 
+				"order by 1 desc");
+		while (MFAQuery .next()) {
+			 System.out.println(MFAQuery .getString(1) + "  " + MFAQuery.getString(2) + "  " + MFAQuery.getString(3) + "  "
+			 + MFAQuery.getString(4) + "  " + MFAQuery.getString(5));
+			 }
+		
+		if (MFAQuery != null)
+		{
+			 try 
+			 {
+				 MFAQuery.close();
+			 } 
+			 catch (Exception e)
+			 {
+				 
+			 }
+		}
+			 
+			 
+			 if (stmt != null) 
+			 {
+				 try 
+			 {
+				 stmt.close();
+			 } 
+				 catch (Exception e) 
+				 {
+					 
+				 }
+			 }
+			 
+			 
+			 if (conn != null) 
+			 {
+				 try 
+			 {
+					 conn.close();
+			 }
+				 catch (Exception e)
+				 { }
+			 }
+		
+	}
+
+}

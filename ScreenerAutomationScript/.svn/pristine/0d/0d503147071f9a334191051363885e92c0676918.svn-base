@@ -1,0 +1,66 @@
+package com.crm.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.crm.qa.base.TestBase;
+
+public class HomePage extends TestBase {
+	
+	@FindBy(xpath = "//*[@role='presentation'  and contains(@title ,'Library')]")
+	WebElement Libraryicon;
+	
+	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Tasks')]")
+	WebElement Tasktab;
+	
+	@FindBy(xpath="//*[contains(@id,'navigiationOpenClosePanel')]")
+	WebElement LabelIcon;
+	
+	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Screene')]")
+	WebElement Screenertab;
+	
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	public String validateLoginPageTitle() {
+		return driver.getTitle();
+	}
+	
+	public LibraryPage ClickonLibrary() throws InterruptedException {
+		Thread.sleep(10000);
+		Libraryicon.click();
+		return new LibraryPage();
+	}
+	
+	public void  ClickonTask() throws InterruptedException {
+		
+		boolean Label = LabelIcon.isDisplayed();
+		//System.out.println(Label);
+		if(Label==true)
+		{
+			System.out.println("Navigation panel is Enable");
+			Thread.sleep(3000);
+			Tasktab.click();
+		}
+		else
+		{
+			System.out.println("Navigation panel is  Disable");
+			LabelIcon.click();
+			Thread.sleep(3000);
+			Tasktab.click();
+		}
+
+	}
+	
+	public ScreenerInboxpage ClickonScreeners() throws InterruptedException {
+		Thread.sleep(3000);
+		Screenertab.click();
+		return new ScreenerInboxpage();
+	}
+	
+	 
+
+}

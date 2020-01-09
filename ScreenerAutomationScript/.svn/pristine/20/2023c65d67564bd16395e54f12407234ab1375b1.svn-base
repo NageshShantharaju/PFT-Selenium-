@@ -1,0 +1,19 @@
+package com.crm.qa.util;
+
+import org.apache.log4j.Logger;
+
+public class TestUtil {
+
+	
+	public static long IMPLICIT_WAIT = 50;
+	public static long PAGE_LOAD_TIMEOUT = 50;
+	
+	public static Logger Log = Logger.getLogger(TestUtil.class.getName());
+	
+	public static  void Wait() throws InterruptedException
+	{
+		Thread.sleep(4000);
+	}
+	
+	
+}

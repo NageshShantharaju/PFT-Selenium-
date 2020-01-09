@@ -1,0 +1,373 @@
+package com.qa.pages;
+
+import java.awt.Dimension;
+import java.awt.image.BufferedImage;
+
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+import com.qa.base.TestBase;
+import com.qa.util.TestUtil;
+
+public class ScreenerInboxpage extends TestBase {
+	
+	@FindBy(xpath="//*[@id='UCsrchIcon']")
+	WebElement InboxSearchIcon;
+	
+	@FindBy(xpath="//*[@id='ScreenerInboxSearch']")
+	WebElement InboxSearch;
+	
+	@FindBy(xpath="//*[@id='ScreenerInbox']")
+	WebElement ScreenerInboxtab;
+	
+	@FindBy(xpath="//*[contains(@id,'requestExtension_')]")
+	WebElement RequestExtension;
+	
+	@FindBy(xpath="//*[@id='requestorCommentsInbox']")
+	WebElement RequestCommentBox;
+	
+	@FindBy(xpath="//*[contains(@id,'editRequestExtension')]")
+	WebElement EditRequestExtension;
+	
+	@FindBy(xpath="//*[@id='requestedExpireDate_selector']")
+	WebElement Datepicker;
+	
+	@FindBy(xpath="(//*[@dyc-date='20201206'])[1]")
+	WebElement Dateselecter;
+
+	@FindBy(id ="dvSubmit")
+	WebElement Submitbutton;
+	
+	@FindBy(id="dvUpdate")
+	WebElement Updatebutton;
+	
+	@FindBy(xpath="//*[contains(text(),'Request New Link')]")
+	WebElement RequestExn;
+	
+	@FindBy(xpath="//*[contains(@title,'request for extension')]")
+	WebElement RequestNewLinkIcon;	
+	
+	@FindBy(id="RequestComments")
+	WebElement RequestLinkCommentbox;
+	
+	
+	@FindBy(id="RequestComments")
+	WebElement RequestExnComment;
+	
+	@FindBy(id="dvSubmit")
+	WebElement RequestExnBtn;
+	
+	@FindBy(xpath="//*[@title='Order title']")
+	WebElement ScreenerTitle;
+	
+	@FindBy(xpath="//*[@class='asset-actionsMain pft-screenerinbox']")
+	WebElement AssetHover;
+	
+	@FindBy(xpath="//span[@class='asset-info WhiteRounded pft-screenerinbox']")
+	WebElement MetadataIcon;
+	
+	@FindBy(xpath="//*[@title='Click to View']")
+	WebElement PlayIcon;
+	
+	@FindBy(xpath="//*[@title='Click to download']")
+	WebElement DownoadIcon;
+	
+	@FindBy(xpath="//*[@id='close1']")
+	WebElement PopUpClose;
+	
+	@FindBy(xpath="//*[@title='Close Notification Panel']")
+	WebElement NotificationPopUpClose;
+	
+	@FindBy(xpath="//*[@id='dvShare']")
+	WebElement ShareButton;
+	
+	@FindBy(xpath="//*[@id='clearLoginId']")
+	WebElement ShareRecipentTextBox;
+	
+	@FindBy(xpath="//*[@id='ShareOrderCheck']")
+	WebElement ShareDownloadCheckbox;
+	
+	@FindBy(xpath="//*[@id='includeMetadata']")
+	WebElement ShareMetadataCheckbox;
+	
+	@FindBy(xpath="//*[@id='ShareOrderButton']")
+	WebElement ShareBtnPopup;
+	
+	@FindBy(xpath="//*[@id='screenerInbox' and @title='Refresh']")
+	WebElement RefreshIcon;
+	
+	@FindBy(id="extnCancel")
+	WebElement CancelRadioBtn;
+	
+	@FindBy(id="filterIcon")
+	WebElement FilterIcon;
+	
+	@FindBy(id="PublishedStartDate_selector")
+	WebElement PublishedFromdate;
+	
+	@FindBy(id="PublishedEndDate_selector")
+	WebElement PublishedTodate;
+	
+	@FindBy(xpath="//*[contains(text(),'Today')]")
+	WebElement DateSelect;
+
+	@FindBy(id="ActiveScreeners")
+	WebElement Activecheckbox;
+	
+	@FindBy(id="btnApplyFilter")
+	WebElement FilterApplyBtn;	
+	
+	@FindBy(xpath="//span[text()=' Request Again ']")
+	WebElement RequestAgain;	
+	
+	@FindBy(xpath="//*[text()=' Share (2) ']")
+	WebElement Validate_Sharecount;
+	
+	public ScreenerInboxpage()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	public void ClickonScreenerInboxTab()
+	{		
+		ScreenerInboxtab.click();
+	}
+	
+	public void ValidateScreenrTab()
+	{		
+		boolean ValidateTab = ScreenerInboxtab.isSelected();
+		if(ValidateTab==true)
+		{
+			System.out.println("Screener Inbox is Enabled");
+			ScreenerInboxtab.click();
+		}
+		else
+		{
+			System.out.println("Screener Inbox is Disabled");
+			ScreenerInboxtab.click();
+			
+		}
+	}
+
+	public void ClcikonSearchicon()
+	{
+		InboxSearchIcon.click();
+	}
+	public void SearchtheOrder(String Comment)
+	{
+		InboxSearch.click();
+		InboxSearch.clear();
+		InboxSearch.sendKeys(Comment ,Keys.ENTER );
+	}
+
+	public void RequestExtenion(String RequestComment)
+	{
+		RequestExtension.click();
+		RequestCommentBox.click();
+		RequestCommentBox.sendKeys(RequestComment ,Keys.ENTER);
+		Submitbutton.click();
+	}
+	public void EditRequest(String EditComment) throws InterruptedException, FindFailed
+	{
+		EditRequestExtension.click();  	
+		Datepicker.click();
+		Dateselecter.click();
+		RequestCommentBox.click();
+		TestUtil.Wait();
+		RequestCommentBox.sendKeys(EditComment , Keys.ENTER);		
+		TestUtil.Wait();
+		Updatebutton.click();				
+	}
+	 
+	public void RequestNewLink(String RequestLinkComment) throws InterruptedException
+	{
+		TestUtil.Wait();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", RequestNewLinkIcon);
+		RequestNewLinkIcon.click();
+		RequestLinkCommentbox.click();
+		RequestLinkCommentbox.sendKeys("Request for new Link!!!", Keys.ENTER);
+		TestUtil.Wait();
+		RequestExnBtn.click();
+		
+	}
+	public void RequestAgain(String RequestAgainComment) throws InterruptedException
+	{
+		//TestUtil.Wait();
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
+		//js.executeScript("arguments[0].scrollIntoView();", RequestNewLinkIcon);
+		RequestAgain.click();
+		RequestLinkCommentbox.click();
+		RequestLinkCommentbox.sendKeys("Request Again !!!", Keys.ENTER);
+		TestUtil.Wait();
+		RequestExnBtn.click();
+		
+	}
+	public void VerifyScreenerTitle()
+	{
+		
+		ScreenerTitle.getText();
+		
+	}
+	public void VerifyMetadataIconsDisplay() 
+	{
+		
+		Actions M_Icon = new Actions(driver);
+		M_Icon.moveToElement(AssetHover).build().perform();
+		
+		try {
+			TestUtil.Wait();
+			boolean Metadata = MetadataIcon.isDisplayed();
+			if(Metadata==true)
+			{
+				TestUtil.Wait();
+				MetadataIcon.click();
+				PopUpClose.click();
+				System.out.println("Metadata Icon Clicked");
+			}
+			else
+			{
+				System.out.println("Metadata Icon is Not Displaying");
+			}
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}	
+	public void VerifyPlayIconsDisplay()
+	{
+		
+		Actions P_Icon = new Actions(driver);
+		P_Icon.moveToElement(AssetHover).build().perform();
+		
+		try {
+			TestUtil.Wait();
+			boolean Play = PlayIcon.isDisplayed();
+			if(Play==true)
+			{
+				TestUtil.Wait();
+				System.out.println("PlayIcon is Displayed");
+				 PlayIcon.click();
+				 Thread.sleep(15000);
+				 PopUpClose.click();
+				 System.out.println("PlayIcon Got Clicked");
+			}
+			else
+			{
+				System.out.println("PlayIcon is Not Displaying");
+			}
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+				
+	}
+	public void VerifyDownloadIconsDisplay() 
+	{
+		
+		Actions D_Icon = new Actions(driver);
+		D_Icon.moveToElement(AssetHover).build().perform();
+		
+		try {
+			TestUtil.Wait();
+			boolean Download = DownoadIcon.isDisplayed();
+			if(Download==true)
+			{
+				TestUtil.Wait();
+				System.out.println("Download Icon is Displayed");
+				DownoadIcon.click();
+				NotificationPopUpClose.click();
+				System.out.println("Download got Clicked");
+			}
+			else
+			{
+				System.out.println("Download Icon is Not Displaying");
+			}
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+				
+	}
+	public void shareorder(String ShareRecipient1 , String ShareRecipient2)
+	{
+		ShareButton.click();
+		try {
+			TestUtil.Wait();
+			ShareRecipentTextBox.click();
+			ShareRecipentTextBox.sendKeys(ShareRecipient1 , Keys.ENTER);
+			ShareRecipentTextBox.click();
+			TestUtil.Wait();
+			ShareRecipentTextBox.sendKeys(ShareRecipient2 , Keys.ENTER);
+			ShareDownloadCheckbox.click();
+			ShareMetadataCheckbox.click();
+			TestUtil.Wait();
+			ShareBtnPopup.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void Validate_ShareCount()
+	{
+		boolean Count = Validate_Sharecount.isDisplayed();
+		if (Count == true)
+		{
+			TestUtil.AssertTrue(Count, "Share Count matches Correctly");
+			log.info("Share Count matches Correctly");
+		}
+		else 
+		{
+			log.error("Share Count is not matches correctly");
+		}
+	}
+	public void ValidateRefresh()
+	{
+		try {
+			TestUtil.Wait();
+			RefreshIcon.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	public void CancelRequest()
+	{
+		try {
+			TestUtil.Wait();
+			EditRequestExtension.click();
+			CancelRadioBtn.click();
+			Updatebutton.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	public void ValidateFilter()
+	{
+		FilterIcon.click();
+		PublishedFromdate.click();
+		DateSelect.click();
+		FilterApplyBtn.click();
+		
+	}
+	
+		
+		
+}		
+		
+		
+		
+		
+		

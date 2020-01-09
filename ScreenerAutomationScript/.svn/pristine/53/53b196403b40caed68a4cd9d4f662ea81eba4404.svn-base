@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.ExtentReportListener.ExtendReport"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.SanityScreenerTest">
+        <methods>
+          <include name="Validate_Download_Icon"/>
+          <include name="Login"/>
+          <include name="ExternalUser_Login"/>
+          <include name="CancelRequest"/>
+          <include name="ShareOredr"/>
+          <include name="ValidateRefreshBtn"/>
+          <include name="Validate_Metadata_Icon"/>
+          <include name="SanityStart"/>
+          <include name="Endsanity"/>
+          <include name="Validate_Play_Icon"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SanityScreenerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

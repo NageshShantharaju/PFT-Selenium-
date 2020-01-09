@@ -1,0 +1,271 @@
+03-12-2019 16:40:09 INFO  TestBase:44 - Automation Testing Start Running !!!
+03-12-2019 16:51:42 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:11:44 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:12:05 INFO  TestBase:67 - Browser has been launched
+04-12-2019 14:47:33 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:47:41 INFO  TestBase:67 - Browser has been launched
+04-12-2019 14:48:26 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+04-12-2019 14:48:27 INFO  TestBase:47 - Navigation Tree has been Expanded and Clicking on it.
+04-12-2019 14:48:37 INFO  TestBase:60 - Clicked on the Library Panel
+04-12-2019 14:48:37 INFO  TestBase:65 - User Landed to Library Page
+04-12-2019 20:15:46 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 20:15:55 INFO  TestBase:67 - Browser has been launched
+04-12-2019 20:16:39 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+04-12-2019 20:16:40 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+04-12-2019 20:16:50 INFO  TestBase:60 - Clicked on the Library Panel
+04-12-2019 20:16:50 INFO  TestBase:65 - User Landed to Library Page
+04-12-2019 20:30:31 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 20:30:39 INFO  TestBase:67 - Browser has been launched
+04-12-2019 20:31:23 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+04-12-2019 20:31:24 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+04-12-2019 20:31:34 INFO  TestBase:60 - Clicked on the Library Panel
+04-12-2019 20:31:34 INFO  TestBase:65 - User Landed to Library Page
+04-12-2019 20:39:46 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 20:39:54 INFO  TestBase:67 - Browser has been launched
+04-12-2019 20:40:43 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+04-12-2019 20:40:43 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+04-12-2019 20:40:53 INFO  TestBase:60 - Clicked on the Library Panel
+04-12-2019 20:40:53 INFO  TestBase:65 - User Landed to Library Page
+04-12-2019 20:41:14 INFO  TestBase:109 - Clicked on Screener Icon 
+05-12-2019 11:19:48 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:19:56 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:20:33 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:20:34 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:20:44 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:20:44 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:21:04 INFO  TestBase:109 - Clicked on Screener Icon 
+05-12-2019 11:22:24 INFO  TestBase:109 - Clicked on Screener Icon 
+05-12-2019 11:27:57 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:28:05 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:28:49 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:28:49 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:28:59 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:29:00 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:29:22 INFO  TestBase:114 - Clicked on Screener Icon 
+05-12-2019 11:30:38 INFO  TestBase:99 - BIN area is In-Active , Clicking on It
+05-12-2019 11:30:42 INFO  TestBase:114 - Clicked on Screener Icon 
+05-12-2019 11:36:56 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:37:04 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:37:41 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:37:41 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:37:51 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:37:51 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:38:15 INFO  TestBase:88 - BIN area is Active
+05-12-2019 11:39:20 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:39:27 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:40:07 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:40:07 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:40:17 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:40:18 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:40:37 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 11:41:53 INFO  TestBase:93 - BIN area is In-Active , Clicking on It
+05-12-2019 11:41:57 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 11:43:33 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:43:40 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:44:19 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:44:19 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:44:29 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:44:30 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:44:49 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 11:58:20 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 11:58:27 INFO  TestBase:67 - Browser has been launched
+05-12-2019 11:59:11 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 11:59:11 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 11:59:21 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 11:59:21 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 11:59:40 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:00:30 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:00:37 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:06:57 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:07:04 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:07:44 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 12:07:44 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 12:07:55 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 12:07:55 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 12:08:15 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:09:33 INFO  TestBase:93 - BIN area is In-Active , Clicking on It
+05-12-2019 12:09:37 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:13:38 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:13:46 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:14:27 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 12:14:28 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 12:14:38 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 12:14:38 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 12:14:58 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:15:24 INFO  TestBase:93 - BIN area is In-Active , Clicking on It
+05-12-2019 12:15:28 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:22:34 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:22:42 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:24:01 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:24:08 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:24:43 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 12:24:44 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 12:24:54 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 12:24:54 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 12:25:14 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:25:36 INFO  TestBase:87 - Internal Publish Got Passed
+05-12-2019 12:25:41 INFO  TestBase:93 - BIN area is In-Active , Clicking on It
+05-12-2019 12:25:45 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:26:15 INFO  TestBase:112 - External Publish Got Passed
+05-12-2019 12:26:58 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:28:34 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:28:41 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:29:07 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:29:16 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 12:29:27 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 12:29:34 INFO  TestBase:67 - Browser has been launched
+05-12-2019 12:30:29 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 12:30:29 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 12:30:39 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 12:30:39 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 12:30:58 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 12:31:20 INFO  TestBase:87 - Internal Publish Got Passed
+05-12-2019 13:20:49 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 13:20:58 INFO  TestBase:67 - Browser has been launched
+05-12-2019 13:21:57 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 13:22:36 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 13:22:44 INFO  TestBase:67 - Browser has been launched
+05-12-2019 13:23:43 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 13:27:52 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 13:28:00 INFO  TestBase:67 - Browser has been launched
+05-12-2019 13:29:44 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 13:29:51 INFO  TestBase:67 - Browser has been launched
+05-12-2019 13:34:10 INFO  TestBase:67 - Browser has been launched
+05-12-2019 14:38:42 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 14:38:51 INFO  TestBase:67 - Browser has been launched
+05-12-2019 14:41:09 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 14:41:17 INFO  TestBase:67 - Browser has been launched
+05-12-2019 14:42:00 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 14:42:07 INFO  TestBase:67 - Browser has been launched
+05-12-2019 14:45:49 INFO  TestBase:44 - Automation Testing Start Running !!!
+05-12-2019 14:45:56 INFO  TestBase:67 - Browser has been launched
+05-12-2019 14:46:43 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+05-12-2019 14:46:43 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+05-12-2019 14:46:53 INFO  TestBase:60 - Clicked on the Library Panel
+05-12-2019 14:46:53 INFO  TestBase:65 - User Landed to Library Page
+05-12-2019 14:47:14 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 14:47:35 INFO  TestBase:87 - Internal Publish Got Passed
+05-12-2019 14:47:40 INFO  TestBase:93 - BIN area is In-Active , Clicking on It
+05-12-2019 14:47:45 INFO  TestBase:108 - Clicked on Screener Icon 
+05-12-2019 14:48:14 INFO  TestBase:112 - External Publish Got Passed
+05-12-2019 14:53:36 INFO  TestBase:67 - Browser has been launched
+06-12-2019 11:14:21 INFO  TestBase:44 - Automation Testing Start Running !!!
+06-12-2019 11:14:33 INFO  TestBase:67 - Browser has been launched
+06-12-2019 11:15:10 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+06-12-2019 11:15:10 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+06-12-2019 11:15:21 INFO  TestBase:60 - Clicked on the Library Panel
+06-12-2019 11:15:21 INFO  TestBase:65 - User Landed to Library Page
+06-12-2019 11:15:45 INFO  TestBase:88 - BIN area is Active
+06-12-2019 11:57:46 INFO  TestBase:44 - Automation Testing Start Running !!!
+06-12-2019 11:57:55 INFO  TestBase:67 - Browser has been launched
+06-12-2019 11:58:35 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+06-12-2019 11:58:36 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+06-12-2019 11:58:46 INFO  TestBase:60 - Clicked on the Library Panel
+06-12-2019 11:58:46 INFO  TestBase:65 - User Landed to Library Page
+06-12-2019 11:59:06 INFO  TestBase:115 - Clicked on Screener Icon 
+06-12-2019 11:59:27 INFO  TestBase:87 - Internal Publish Got Passed
+06-12-2019 11:59:33 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+06-12-2019 11:59:37 INFO  TestBase:115 - Clicked on Screener Icon 
+06-12-2019 12:00:07 INFO  TestBase:112 - External Publish Got Passed
+06-12-2019 12:03:57 INFO  TestBase:67 - Browser has been launched
+06-12-2019 18:22:36 INFO  TestBase:44 - Automation Testing Start Running !!!
+06-12-2019 18:22:45 INFO  TestBase:67 - Browser has been launched
+06-12-2019 18:23:27 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+06-12-2019 18:23:28 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+06-12-2019 18:23:38 INFO  TestBase:60 - Clicked on the Library Panel
+06-12-2019 18:23:38 INFO  TestBase:65 - User Landed to Library Page
+06-12-2019 18:23:58 INFO  TestBase:115 - Clicked on Screener Icon 
+06-12-2019 18:24:20 INFO  TestBase:87 - Internal Publish Got Passed
+06-12-2019 18:24:25 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+06-12-2019 18:24:29 INFO  TestBase:115 - Clicked on Screener Icon 
+06-12-2019 18:24:59 INFO  TestBase:113 - External Publish Got Passed
+17-12-2019 11:44:49 INFO  TestBase:44 - Automation Testing Start Running !!!
+17-12-2019 11:45:08 INFO  TestBase:67 - Browser has been launched
+17-12-2019 11:46:13 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+17-12-2019 11:46:14 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+17-12-2019 11:46:24 INFO  TestBase:60 - Clicked on the Library Panel
+17-12-2019 11:46:24 INFO  TestBase:65 - User Landed to Library Page
+17-12-2019 11:46:45 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 11:47:07 INFO  TestBase:87 - Internal Publish Got Passed
+17-12-2019 11:47:12 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+17-12-2019 11:47:17 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 11:47:47 INFO  TestBase:113 - External Publish Got Passed
+17-12-2019 11:53:27 INFO  TestBase:44 - Automation Testing Start Running !!!
+17-12-2019 11:53:38 INFO  TestBase:67 - Browser has been launched
+17-12-2019 11:54:44 INFO  TestBase:44 - Automation Testing Start Running !!!
+17-12-2019 11:54:52 INFO  TestBase:67 - Browser has been launched
+17-12-2019 11:55:30 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+17-12-2019 11:55:31 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+17-12-2019 11:55:41 INFO  TestBase:60 - Clicked on the Library Panel
+17-12-2019 11:55:41 INFO  TestBase:65 - User Landed to Library Page
+17-12-2019 11:56:01 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 11:56:22 INFO  TestBase:87 - Internal Publish Got Passed
+17-12-2019 11:56:27 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+17-12-2019 11:56:32 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 11:57:01 INFO  TestBase:113 - External Publish Got Passed
+17-12-2019 12:01:43 INFO  TestBase:67 - Browser has been launched
+17-12-2019 12:03:32 INFO  TestBase:326 - Share Count matches Correctly
+17-12-2019 12:28:17 INFO  TestBase:44 - Automation Testing Start Running !!!
+17-12-2019 12:28:24 INFO  TestBase:67 - Browser has been launched
+17-12-2019 12:29:04 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+17-12-2019 12:29:04 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+17-12-2019 12:29:14 INFO  TestBase:60 - Clicked on the Library Panel
+17-12-2019 12:29:14 INFO  TestBase:65 - User Landed to Library Page
+17-12-2019 12:29:35 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 12:29:56 INFO  TestBase:87 - Internal Publish Got Passed
+17-12-2019 12:30:01 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+17-12-2019 12:30:05 INFO  TestBase:115 - Clicked on Screener Icon 
+17-12-2019 12:30:35 INFO  TestBase:113 - External Publish Got Passed
+17-12-2019 12:32:37 INFO  TestBase:67 - Browser has been launched
+02-01-2020 18:41:32 INFO  TestBase:44 - Automation Testing Start Running !!!
+02-01-2020 18:41:42 INFO  TestBase:67 - Browser has been launched
+02-01-2020 18:42:11 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+08-01-2020 14:26:37 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 14:26:58 INFO  TestBase:67 - Browser has been launched
+08-01-2020 14:29:09 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 14:29:16 INFO  TestBase:67 - Browser has been launched
+08-01-2020 14:40:50 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:03:59 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 16:04:08 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:04:51 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#4321
+08-01-2020 16:04:51 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+08-01-2020 16:05:01 INFO  TestBase:60 - Clicked on the Library Panel
+08-01-2020 16:05:01 INFO  TestBase:65 - User Landed to Library Page
+08-01-2020 16:05:21 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 16:05:43 INFO  TestBase:87 - Internal Publish Got Passed
+08-01-2020 16:05:48 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+08-01-2020 16:05:52 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 16:06:22 INFO  TestBase:113 - External Publish Got Passed
+08-01-2020 16:10:56 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:29:00 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 16:29:10 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:32:14 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 16:32:21 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:33:34 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#4321
+08-01-2020 16:33:35 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+08-01-2020 16:33:45 INFO  TestBase:60 - Clicked on the Library Panel
+08-01-2020 16:33:45 INFO  TestBase:65 - User Landed to Library Page
+08-01-2020 16:34:08 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 16:34:30 INFO  TestBase:87 - Internal Publish Got Passed
+08-01-2020 16:34:35 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+08-01-2020 16:34:39 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 16:35:09 INFO  TestBase:113 - External Publish Got Passed
+08-01-2020 16:40:18 INFO  TestBase:67 - Browser has been launched
+08-01-2020 16:43:29 INFO  TestBase:326 - Share Count matches Correctly
+08-01-2020 17:06:46 INFO  TestBase:44 - Automation Testing Start Running !!!
+08-01-2020 17:06:55 INFO  TestBase:67 - Browser has been launched
+08-01-2020 17:07:49 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#4321
+08-01-2020 17:16:39 INFO  TestBase:34 - Automation Testing Start Running !!!
+08-01-2020 17:16:47 INFO  TestBase:67 - Browser has been launched
+08-01-2020 17:18:40 INFO  TestBase:34 - Automation Testing Start Running !!!
+08-01-2020 17:18:47 INFO  TestBase:67 - Browser has been launched
+08-01-2020 17:19:42 INFO  TestBase:45 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#4321
+08-01-2020 17:19:43 INFO  TestBase:47 - Navigation Tree has been expanded , Clicking on it.
+08-01-2020 17:19:53 INFO  TestBase:60 - Clicked on the Library Panel
+08-01-2020 17:19:53 INFO  TestBase:65 - User Landed to Library Page
+08-01-2020 17:20:15 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 17:20:36 INFO  TestBase:77 - Internal Publish Got Passed
+08-01-2020 17:20:42 INFO  TestBase:100 - BIN area is In-Active , Clicking on It
+08-01-2020 17:20:46 INFO  TestBase:115 - Clicked on Screener Icon 
+08-01-2020 17:21:15 INFO  TestBase:103 - External Publish Got Passed
+08-01-2020 17:24:52 INFO  TestBase:67 - Browser has been launched

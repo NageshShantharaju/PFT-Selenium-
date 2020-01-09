@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.crm.qa.testcases.SanityScreenerTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.SanityScreenerTest">
+        <methods>
+          <include name="DragandDropTheAssets"/>
+          <include name="VaildateUserLogin"/>
+          <include name="ExternalPublish"/>
+          <include name="logout"/>
+          <include name="NavigateToLibraryPage"/>
+          <include name="RequestNewLink"/>
+          <include name="ManualExpiry"/>
+          <include name="Login"/>
+          <include name="ApproveRequestOrder"/>
+          <include name="DeletePublishOrder"/>
+          <include name="EditExtension"/>
+          <include name="EditTheOrder"/>
+          <include name="SanityStart"/>
+          <include name="InternalPublish"/>
+          <include name="RequestExtension"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SanityScreenerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.crm.qa.testcases.SanityScreenerTest] -->

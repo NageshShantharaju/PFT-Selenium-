@@ -1,0 +1,10 @@
+03-12-2019 16:40:09 INFO  TestBase:44 - Automation Testing Start Running !!!
+03-12-2019 16:51:42 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:11:44 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:12:05 INFO  TestBase:67 - Browser has been launched
+04-12-2019 14:47:33 INFO  TestBase:44 - Automation Testing Start Running !!!
+04-12-2019 14:47:41 INFO  TestBase:67 - Browser has been launched
+04-12-2019 14:48:26 INFO  TestBase:55 - User has entred Username and Pwd UserName:pft_cleardemoPassword:Cloud#54321
+04-12-2019 14:48:27 INFO  TestBase:47 - Navigation Tree has been Expanded and Clicking on it.
+04-12-2019 14:48:37 INFO  TestBase:60 - Clicked on the Library Panel
+04-12-2019 14:48:37 INFO  TestBase:65 - User Landed to Library Page

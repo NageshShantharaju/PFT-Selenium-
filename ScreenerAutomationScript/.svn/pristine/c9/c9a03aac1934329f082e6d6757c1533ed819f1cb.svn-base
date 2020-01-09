@@ -1,0 +1,14 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="f67b76">  <td>19/10/30 20:05:20</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="ExternalUserScreenerTest.CancelRequest()[pri:1, instance:com.crm.qa.testcases.ExternalUserScreenerTest@1d057a39]">CancelRequest</td> 
+  <td>main@258754732</td>   <td></td> </tr>
+<tr bgcolor="f67b76">  <td>19/10/30 20:04:29</td>   <td>-51292</td> <td>&nbsp;</td><td title="&gt;&gt;ExternalUserScreenerTest.ExternalUser_LaunchURL()[pri:0, instance:com.crm.qa.testcases.ExternalUserScreenerTest@1d057a39]">&gt;&gt;ExternalUser_LaunchURL</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@258754732</td>   <td></td> </tr>
+<tr bgcolor="f67b76">  <td>19/10/30 20:04:59</td>   <td>-20513</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="ExternalUserScreenerTest.ExternalUser_Login()[pri:0, instance:com.crm.qa.testcases.ExternalUserScreenerTest@1d057a39]">ExternalUser_Login</td> 
+  <td>main@258754732</td>   <td></td> </tr>
+<tr bgcolor="f67b76">  <td>19/10/30 20:04:28</td>   <td>-51308</td> <td title="&gt;&gt;ExternalUserScreenerTest.SanityStart()[pri:0, instance:com.crm.qa.testcases.ExternalUserScreenerTest@1d057a39]">&gt;&gt;SanityStart</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@258754732</td>   <td></td> </tr>
+<tr bgcolor="f67b76">  <td>19/10/30 20:05:36</td>   <td>15959</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="ExternalUserScreenerTest.Validate_Filter_Icon()[pri:2, instance:com.crm.qa.testcases.ExternalUserScreenerTest@1d057a39]">Validate_Filter_Icon</td> 
+  <td>main@258754732</td>   <td></td> </tr>
+</table>

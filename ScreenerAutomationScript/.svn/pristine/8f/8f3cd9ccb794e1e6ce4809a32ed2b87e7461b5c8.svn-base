@@ -1,0 +1,99 @@
+package com.crm.qa.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.crm.qa.base.TestBase;
+
+public class HomePage extends TestBase {
+	
+	@FindBy(xpath = "//*[@role='presentation'  and contains(@title ,'Library')]")
+	WebElement Libraryicon;
+	
+	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Tasks')]")
+	WebElement Tasktab;
+	
+	@FindBy(xpath="//*[contains(@id,'navigiationOpenClosePanel')]")
+	WebElement LabelIcon;
+	
+	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Screene')]")
+	WebElement Screenertab;
+	
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	public String validateLoginPageTitle() {
+		return driver.getTitle();
+	}
+	
+	public LibraryPage ClickonLibrary() throws InterruptedException {
+		Thread.sleep(10000);
+		WebDriverWait wait = new WebDriverWait(driver,20000);
+		WebElement LibraryWait = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@role='presentation'  and contains(@title ,'Library')]")));		
+		LibraryWait.click();
+		return new LibraryPage();
+	}
+	
+	public void  ClickonTask() throws InterruptedException {
+		
+		boolean Label = LabelIcon.isDisplayed();
+		//System.out.println(Label);
+		if(Label==true)
+		{
+			System.out.println("Navigation panel is Enable");
+			Thread.sleep(3000);
+			boolean Task_tab = Tasktab.isDisplayed();
+			if(Task_tab == true)
+			{
+				Tasktab.click();
+			}
+			else 
+			{
+				Screenertab.click();
+			}
+			 
+		}
+		else
+		{
+			System.out.println("Navigation panel is  Disable");
+			LabelIcon.click();
+			Thread.sleep(3000);
+			boolean Task_tab = Tasktab.isDisplayed();
+			if(Task_tab == true)
+			{
+				Tasktab.click();
+			}
+			else 
+			{
+				Screenertab.click();
+			}
+		}
+
+	}
+	
+	public ScreenerInboxpage ClickonScreeners() throws InterruptedException {
+		Thread.sleep(3000);
+		boolean Screener_Tab = Screenertab.isDisplayed();
+		if (Screener_Tab == true)
+		{
+			Screenertab.click();
+
+		}
+		else
+		{
+			System.out.println("Alreday clicked");
+		}
+		return new ScreenerInboxpage();
+		
+	}
+	
+	 
+
+}

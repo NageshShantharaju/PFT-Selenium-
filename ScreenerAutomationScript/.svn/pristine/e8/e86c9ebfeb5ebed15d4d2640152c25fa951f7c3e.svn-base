@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\nagesh.shantharaju\eclipse-workspace\ScreenerSanityProd\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 7 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="CancelRequest">CancelRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ExternalUser_Login">ExternalUser_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ShareOredr">ShareOredr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ValidateRefreshBtn">ValidateRefreshBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="Validate_Download_Icon">Validate_Download_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="Validate_Metadata_Icon">Validate_Metadata_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="Validate_Play_Icon">Validate_Play_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ApproveRequestOrder">ApproveRequestOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="DeletePublishOrder">DeletePublishOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="DeleteSingleAsset">DeleteSingleAsset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="DragandDropTheAssets">DragandDropTheAssets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="EditTheOrder">EditTheOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ExtendExpiry">ExtendExpiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ExternalPublish">ExternalPublish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ExternalUser_LaunchURL">ExternalUser_LaunchURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="InternalPublish">InternalPublish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="ManualExpiry">ManualExpiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="NavigateToLibraryPage">NavigateToLibraryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="RequestAgain">RequestAgain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="RequestExtension">RequestExtension</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="RequestNewLink">RequestNewLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="SanityStart1">SanityStart1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcases.SanityScreenerTest" hash-for-method="VaildateUserLogin">VaildateUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcases.SanityScreenerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelRequest">
+                  </a> <!-- CancelRequest -->
+                  <span class="method-name">CancelRequest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.ClcikonSearchicon(ScreenerInboxpage.java:155)
+	at com.crm.qa.testcases.SanityScreenerTest.CancelRequest(SanityScreenerTest.java:384)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExternalUser_Login">
+                  </a> <!-- ExternalUser_Login -->
+                  <span class="method-name">ExternalUser_Login</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\NAGESH~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65052}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 24fb10ccb0f973006a3fa6f2f356bb30
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.LoginPage.Ext_login(LoginPage.java:83)
+	at com.crm.qa.testcases.SanityScreenerTest.ExternalUser_Login(SanityScreenerTest.java:371)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShareOredr">
+                  </a> <!-- ShareOredr -->
+                  <span class="method-name">ShareOredr</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.shareorder(ScreenerInboxpage.java:310)
+	at com.crm.qa.testcases.SanityScreenerTest.ShareOredr(SanityScreenerTest.java:452)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateRefreshBtn">
+                  </a> <!-- ValidateRefreshBtn -->
+                  <span class="method-name">ValidateRefreshBtn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.ValidateRefresh(ScreenerInboxpage.java:328)
+	at com.crm.qa.testcases.SanityScreenerTest.ValidateRefreshBtn(SanityScreenerTest.java:457)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Download_Icon">
+                  </a> <!-- Validate_Download_Icon -->
+                  <span class="method-name">Validate_Download_Icon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.ClcikonSearchicon(ScreenerInboxpage.java:155)
+	at com.crm.qa.testcases.SanityScreenerTest.Validate_Download_Icon(SanityScreenerTest.java:420)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Metadata_Icon">
+                  </a> <!-- Validate_Metadata_Icon -->
+                  <span class="method-name">Validate_Metadata_Icon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.ClcikonSearchicon(ScreenerInboxpage.java:155)
+	at com.crm.qa.testcases.SanityScreenerTest.Validate_Metadata_Icon(SanityScreenerTest.java:400)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Play_Icon">
+                  </a> <!-- Validate_Play_Icon -->
+                  <span class="method-name">Validate_Play_Icon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;PFTBLR-LT-142&apos;, ip: &apos;10.1.183.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerInboxpage.ClcikonSearchicon(ScreenerInboxpage.java:155)
+	at com.crm.qa.testcases.SanityScreenerTest.Validate_Play_Icon(SanityScreenerTest.java:440)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.SanityScreenerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveRequestOrder">
+                  </a> <!-- ApproveRequestOrder -->
+                  <span class="method-name">ApproveRequestOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletePublishOrder">
+                  </a> <!-- DeletePublishOrder -->
+                  <span class="method-name">DeletePublishOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteSingleAsset">
+                  </a> <!-- DeleteSingleAsset -->
+                  <span class="method-name">DeleteSingleAsset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragandDropTheAssets">
+                  </a> <!-- DragandDropTheAssets -->
+                  <span class="method-name">DragandDropTheAssets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditTheOrder">
+                  </a> <!-- EditTheOrder -->
+                  <span class="method-name">EditTheOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExtendExpiry">
+                  </a> <!-- ExtendExpiry -->
+                  <span class="method-name">ExtendExpiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExternalPublish">
+                  </a> <!-- ExternalPublish -->
+                  <span class="method-name">ExternalPublish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExternalUser_LaunchURL">
+                  </a> <!-- ExternalUser_LaunchURL -->
+                  <span class="method-name">ExternalUser_LaunchURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InternalPublish">
+                  </a> <!-- InternalPublish -->
+                  <span class="method-name">InternalPublish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManualExpiry">
+                  </a> <!-- ManualExpiry -->
+                  <span class="method-name">ManualExpiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToLibraryPage">
+                  </a> <!-- NavigateToLibraryPage -->
+                  <span class="method-name">NavigateToLibraryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RequestAgain">
+                  </a> <!-- RequestAgain -->
+                  <span class="method-name">RequestAgain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RequestExtension">
+                  </a> <!-- RequestExtension -->
+                  <span class="method-name">RequestExtension</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RequestNewLink">
+                  </a> <!-- RequestNewLink -->
+                  <span class="method-name">RequestNewLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SanityStart1">
+                  </a> <!-- SanityStart1 -->
+                  <span class="method-name">SanityStart1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VaildateUserLogin">
+                  </a> <!-- VaildateUserLogin -->
+                  <span class="method-name">VaildateUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nagesh.shantharaju\eclipse-workspace\ScreenerSanityProd\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.ExtentReportListener.ExtendReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.SanityScreenerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EditTheOrder')
+data.setCell(0, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(0, 3, 57241);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ExternalUser_Login')
+data.setCell(1, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(1, 3, 56068);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ExternalPublish')
+data.setCell(2, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(2, 3, 42371);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VaildateUserLogin')
+data.setCell(3, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(3, 3, 26785);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ApproveRequestOrder')
+data.setCell(4, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(4, 3, 25100);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'InternalPublish')
+data.setCell(5, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(5, 3, 22650);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ExtendExpiry')
+data.setCell(6, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(6, 3, 22299);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ManualExpiry')
+data.setCell(7, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(7, 3, 21835);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DeleteSingleAsset')
+data.setCell(8, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(8, 3, 21120);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ExternalUser_LaunchURL')
+data.setCell(9, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(9, 3, 19581);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RequestNewLink')
+data.setCell(10, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(10, 3, 17914);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DeletePublishOrder')
+data.setCell(11, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(11, 3, 16769);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'DragandDropTheAssets')
+data.setCell(12, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(12, 3, 15173);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'RequestExtension')
+data.setCell(13, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(13, 3, 14024);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Logout')
+data.setCell(14, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(14, 3, 11810);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'NavigateToLibraryPage')
+data.setCell(15, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(15, 3, 10261);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ValidateRefreshBtn')
+data.setCell(16, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(16, 3, 4012);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Validate_Metadata_Icon')
+data.setCell(17, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(17, 3, 4005);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Validate_Download_Icon')
+data.setCell(18, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(18, 3, 4005);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Validate_Play_Icon')
+data.setCell(19, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(19, 3, 4003);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CancelRequest')
+data.setCell(20, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(20, 3, 4002);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SanityStart1')
+data.setCell(21, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(21, 3, 6);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ShareOredr')
+data.setCell(22, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'RequestAgain')
+data.setCell(23, 2, 'com.crm.qa.testcases.SanityScreenerTest')
+data.setCell(23, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.SanityScreenerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">SanityStart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">VaildateUserLogin</span>
+                <span class="method-start">21997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavigateToLibraryPage</span>
+                <span class="method-start">48796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DragandDropTheAssets</span>
+                <span class="method-start">59060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InternalPublish</span>
+                <span class="method-start">74236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExternalPublish</span>
+                <span class="method-start">96888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RequestExtension</span>
+                <span class="method-start">139261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditTheOrder</span>
+                <span class="method-start">153288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ApproveRequestOrder</span>
+                <span class="method-start">210531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ManualExpiry</span>
+                <span class="method-start">235633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RequestNewLink</span>
+                <span class="method-start">257469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RequestAgain</span>
+                <span class="method-start">275385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExtendExpiry</span>
+                <span class="method-start">275388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteSingleAsset</span>
+                <span class="method-start">297688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeletePublishOrder</span>
+                <span class="method-start">318810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">335581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SanityStart1</span>
+                <span class="method-start">347395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExternalUser_LaunchURL</span>
+                <span class="method-start">347406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExternalUser_Login</span>
+                <span class="method-start">366990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CancelRequest</span>
+                <span class="method-start">423064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validate_Metadata_Icon</span>
+                <span class="method-start">427071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validate_Download_Icon</span>
+                <span class="method-start">431085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validate_Play_Icon</span>
+                <span class="method-start">435092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShareOredr</span>
+                <span class="method-start">439101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateRefreshBtn</span>
+                <span class="method-start">439108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">Endsanity</span>
+                <span class="method-start">443235 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.SanityScreenerTest">
+        <methods>
+          <include name="ShareOredr"/>
+          <include name="ValidateRefreshBtn"/>
+          <include name="Validate_Metadata_Icon"/>
+          <include name="ValidateShareCount"/>
+          <include name="CancelRequest"/>
+          <include name="Validate_Download_Icon"/>
+          <include name="Login"/>
+          <include name="ExternalUser_Login"/>
+          <include name="Validate_Play_Icon"/>
+          <include name="DeletePublishOrder"/>
+          <include name="SanityStart"/>
+          <include name="Endsanity"/>
+        </methods>
+      </class> <!-- com.qa.testcases.SanityScreenerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

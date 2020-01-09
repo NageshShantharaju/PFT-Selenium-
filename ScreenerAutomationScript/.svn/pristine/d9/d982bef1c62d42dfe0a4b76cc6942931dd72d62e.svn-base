@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.SanityScreenerTest">
+        <methods>
+          <include name="DragandDropTheAssets"/>
+          <include name="VaildateUserLogin"/>
+          <include name="RequestAgain"/>
+          <include name="ExternalPublish"/>
+          <include name="SanityStart1"/>
+          <include name="NavigateToLibraryPage"/>
+          <include name="Login"/>
+          <include name="ShareOredr"/>
+          <include name="Endsanity"/>
+          <include name="InternalPublish"/>
+          <include name="ExternalUser_Login"/>
+          <include name="CancelRequest"/>
+          <include name="ValidateRefreshBtn"/>
+          <include name="Validate_Metadata_Icon"/>
+          <include name="ExtendExpiry"/>
+          <include name="RequestNewLink"/>
+          <include name="Logout"/>
+          <include name="ManualExpiry"/>
+          <include name="Validate_Download_Icon"/>
+          <include name="ExternalUser_LaunchURL"/>
+          <include name="ApproveRequestOrder"/>
+          <include name="DeletePublishOrder"/>
+          <include name="EditTheOrder"/>
+          <include name="SanityStart"/>
+          <include name="DeleteSingleAsset"/>
+          <include name="RequestExtension"/>
+          <include name="Validate_Play_Icon"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SanityScreenerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
